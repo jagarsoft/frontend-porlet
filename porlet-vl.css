@@ -1,0 +1,29 @@
+/* Version: headless div */
+
+.porlet-vl {
+    border: 5px ridge;
+    position: relative;
+}
+
+.porlet-vl::before {
+    content: "";
+    
+    background-color: blue;
+    display: block;
+    height: 11px;
+    width: 100%;
+    border-bottom: 5px ridge;
+}
+
+.porlet-vl::after {
+    content: "x";
+    font-family: sans-serif;   
+        
+    height: 8px;
+    width: 8px;
+    background-color: gray;
+        
+    position: absolute;
+    top: -4.5px;
+    right: 2px;
+}
