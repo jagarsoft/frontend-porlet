@@ -1,0 +1,26 @@
+/* Version: border-bottom head */
+
+.portlet-vbb {
+    border: 5px ridge;
+}
+
+.portlet-vbb .portlet-vbb-head {
+    min-height: 20px;
+    border-bottom: 5px ridge;
+    background-color: blue;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;;
+}
+
+.portlet-vbb-head h6 {
+    color: white;
+    justify-self: flex-start;
+}
+
+.portlet-vbb-head input {
+    border: 1.5px ridge;
+    padding: 0 3px;
+    margin: 3px;
+}

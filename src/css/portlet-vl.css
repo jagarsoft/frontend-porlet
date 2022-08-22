@@ -1,11 +1,11 @@
 /* Version: headless div */
 
-.porlet-vl {
+.portlet-vl {
     border: 5px ridge;
     position: relative;
 }
 
-.porlet-vl::before {
+.portlet-vl::before {
     content: "";
     
     background-color: blue;
@@ -15,7 +15,7 @@
     border-bottom: 5px ridge;
 }
 
-.porlet-vl::after {
+.portlet-vl::after {
     content: "x";
     font-family: sans-serif;   
         

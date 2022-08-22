@@ -1,12 +1,12 @@
 /* Version: head relative positioned */
 
-.porlet-vp {
+.portlet-vp {
     border: 5px ridge;
 
     position: relative;
 }
 
-.porlet-vp .porlet-vp-head {
+.portlet-vp .portlet-vp-head {
     width: 102%;
     height: 20px;
     border: 5px ridge;
